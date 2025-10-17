@@ -17,13 +17,18 @@ header {
   background: #FF7A00;
   color: white;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
 }
 
 header .logo {
-  height: 100px; 
+  height: 100px; /* aumenta se vuoi un logo più grande */
   vertical-align: middle;
 }
 
+nav {
+  margin-left: auto;
 }
 
 nav ul {
@@ -59,71 +64,7 @@ nav a:hover {
   margin-bottom: 1rem;
 }
 
-/* ==== NOTIZIE ==== */
-.notizie {
-  padding: 2rem;
-}
-
-.notizie h2 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-}
-
-article {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  overflow: hidden;
-  transition: transform 0.2s ease;
-}
-
-article:hover {
-  transform: scale(1.02);
-}
-
-article img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-article h3 {
-  font-family: 'Montserrat', sans-serif;
-  padding: 1rem;
-}
-
-article p {
-  padding: 0 1rem;
-  color: #5a4b4b;
-}
-
-article a {
-  display: inline-block;
-  margin: 1rem;
-  color: #FF7A00;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-article a:hover {
-  text-decoration: underline;
-}
-
-/* ==== FOOTER ==== */
-footer {
-  text-align: center;
-  background: #3B2F2F;
-  color: white;
-  padding: 1rem 0;
-  margin-top: 2rem;
-}
+/* ==== TOPICS / ARTICOLI ==== */
 .topics {
   padding: 2rem;
   display: grid;
@@ -132,7 +73,7 @@ footer {
 }
 
 .topics article {
-  background: #fff3e0; /* colore chiaro arancio per i box */
+  background: #fff3e0; /* box leggero arancio */
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 1.5rem;
@@ -151,14 +92,7 @@ footer {
   color: #FF7A00;
 }
 
-.topics ul {
-  padding-left: 1.2rem;
-}
-
-.topics li {
-  margin-bottom: 0.5rem;
-  color: #3B2F2F;
-}
+/* Stile dei singoli articoli all’interno di un topic */
 .topics .news-item {
   margin-bottom: 1rem;
 }
@@ -181,4 +115,13 @@ footer {
   margin: 0;
   color: #3B2F2F;
   font-size: 0.95rem;
+}
+
+/* ==== FOOTER ==== */
+footer {
+  text-align: center;
+  background: #3B2F2F;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
 }
