@@ -9,8 +9,9 @@
   <link rel="icon" href="assets/images/logo.png" type="image/png">
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-    <div class="container">
+    <div class="container header-container">
       <img src="assets/images/logo.png" alt="News del Sole logo" class="logo">
       <nav>
         <ul>
@@ -25,142 +26,99 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <h1>Attualità</h1>
-      <p>Le notizie più importanti e positive della settimana.</p>
-    </section>
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Attualità</h1>
+    <p>Le notizie positive e più importanti della settimana</p>
+  </section>
 
-    <section class="topics">
-      <!-- Topic 1: Politica -->
-      <article>
-  <h2>Politica</h2>
-  <div class="news-item">
-    <h3><a href="link-articolo1.html">Titolo articolo 1</a></h3>
-    <p>Breve descrizione dell’articolo 1...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo2.html">Titolo articolo 2</a></h3>
-    <p>Breve descrizione dell’articolo 2...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo3.html">Titolo articolo 3</a></h3>
-    <p>Breve descrizione dell’articolo 3...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo4.html">Titolo articolo 4</a></h3>
-    <p>Breve descrizione dell’articolo 4...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo5.html">Titolo articolo 5</a></h3>
-    <p>Breve descrizione dell’articolo 5...</p>
-  </div>
-</article>
+  <!-- FILTRO TOPIC -->
+  <section class="categorie container">
+    <h2>Filtra per Topic</h2>
+    <div class="categorie-cards">
+      <a href="#politica" class="categoria-card">Politica</a>
+      <a href="#economia" class="categoria-card">Economia</a>
+      <a href="#scienza" class="categoria-card">Scienza</a>
+      <a href="#ambiente" class="categoria-card">Ambiente</a>
+      <a href="#cultura" class="categoria-card">Cultura</a>
+    </div>
+  </section>
 
-      <!-- Topic 2: Economia -->
-     <article>
-  <h2>Economia</h2>
-  <div class="news-item">
-    <h3><a href="link-articolo6.html">Titolo articolo 1</a></h3>
-    <p>Breve descrizione dell’articolo 1...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo7.html">Titolo articolo 2</a></h3>
-    <p>Breve descrizione dell’articolo 2...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo8.html">Titolo articolo 3</a></h3>
-    <p>Breve descrizione dell’articolo 3...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo9.html">Titolo articolo 4</a></h3>
-    <p>Breve descrizione dell’articolo 4...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo10.html">Titolo articolo 5</a></h3>
-    <p>Breve descrizione dell’articolo 5...</p>
-  </div>
-</article>
+  <!-- CARDS ARTICOLI -->
+  <section class="topics container">
+    <!-- Politica -->
+    <article id="politica">
+      <h2>Politica</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Politica 1">
+          <h3><a href="link-articolo1.html">Nuove leggi a favore dell’energia pulita</a></h3>
+          <p>Il Parlamento approva misure innovative per sostenere la transizione energetica.</p>
+        </div>
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Politica 2">
+          <h3><a href="link-articolo2.html">Iniziative per la trasparenza governativa</a></h3>
+          <p>Programmi e strumenti digitali per cittadini più informati.</p>
+        </div>
+      </div>
+    </article>
 
-      <!-- Topic 3: Scienza -->
-     <article>
-  <h2>Scienza</h2>
-  <div class="news-item">
-    <h3><a href="link-articolo11.html">Titolo articolo 1</a></h3>
-    <p>Breve descrizione dell’articolo 1...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo12.html">Titolo articolo 2</a></h3>
-    <p>Breve descrizione dell’articolo 2...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo13.html">Titolo articolo 3</a></h3>
-    <p>Breve descrizione dell’articolo 3...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo14.html">Titolo articolo 4</a></h3>
-    <p>Breve descrizione dell’articolo 4...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo15.html">Titolo articolo 5</a></h3>
-    <p>Breve descrizione dell’articolo 5...</p>
-  </div>
-</article>
+    <!-- Economia -->
+    <article id="economia">
+      <h2>Economia</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Economia 1">
+          <h3><a href="link-articolo3.html">Start-up innovative premiate</a></h3>
+          <p>Premi per le giovani aziende che puntano sulla sostenibilità.</p>
+        </div>
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Economia 2">
+          <h3><a href="link-articolo4.html">Investimenti in energie rinnovabili</a></h3>
+          <p>Nuovi fondi per accelerare la produzione pulita.</p>
+        </div>
+      </div>
+    </article>
 
-      <!-- Topic 4: Ambiente -->
-      <article>
-  <h2>Ambiente</h2>
-  <div class="news-item">
-    <h3><a href="link-articolo16.html">Titolo articolo 1</a></h3>
-    <p>Breve descrizione dell’articolo 1...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo17.html">Titolo articolo 2</a></h3>
-    <p>Breve descrizione dell’articolo 2...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo18.html">Titolo articolo 3</a></h3>
-    <p>Breve descrizione dell’articolo 3...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo19.html">Titolo articolo 4</a></h3>
-    <p>Breve descrizione dell’articolo 4...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo20.html">Titolo articolo 5</a></h3>
-    <p>Breve descrizione dell’articolo 5...</p>
-  </div>
-</article>
+    <!-- Scienza -->
+    <article id="scienza">
+      <h2>Scienza</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Scienza 1">
+          <h3><a href="link-articolo5.html">Nuove scoperte mediche</a></h3>
+          <p>Progressi nella cura di malattie rare e innovative terapie.</p>
+        </div>
+      </div>
+    </article>
 
-      <!-- Topic 5: Cultura -->
-<article>
-  <h2>Cultura</h2>
-  <div class="news-item">
-    <h3><a href="link-articolo21.html">Titolo articolo 1</a></h3>
-    <p>Breve descrizione dell’articolo 1...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo22.html">Titolo articolo 2</a></h3>
-    <p>Breve descrizione dell’articolo 2...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo23.html">Titolo articolo 3</a></h3>
-    <p>Breve descrizione dell’articolo 3...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo24.html">Titolo articolo 4</a></h3>
-    <p>Breve descrizione dell’articolo 4...</p>
-  </div>
-  <div class="news-item">
-    <h3><a href="link-articolo25.html">Titolo articolo 5</a></h3>
-    <p>Breve descrizione dell’articolo 5...</p>
-  </div>
-</article>
-    </section>
-  </main>
+    <!-- Ambiente -->
+    <article id="ambiente">
+      <h2>Ambiente</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Ambiente 1">
+          <h3><a href="link-articolo6.html">Progetti di riforestazione</a></h3>
+          <p>Iniziative locali e globali per ridare vita alle foreste.</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Cultura -->
+    <article id="cultura">
+      <h2>Cultura</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Cultura 1">
+          <h3><a href="link-articolo7.html">Festival musicali locali</a></h3>
+          <p>Eventi gratuiti per promuovere arte e musica nella comunità.</p>
+        </div>
+      </div>
+    </article>
+  </section>
 
   <footer>
-    <p>© 2025 News del Sole | Made with ☀️ by Emanuele</p>
+    <p>© 2025 News del Sole | Made with ☀️ by Sole & ChatGPT</p>
   </footer>
 </body>
 </html>
