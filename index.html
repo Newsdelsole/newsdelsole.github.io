@@ -4,61 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News del Sole ☀️</title>
-
-  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <!-- Favicon -->
+  <link rel="stylesheet" href="assets/css/home.css">
   <link rel="icon" href="assets/images/logo.png" type="image/png">
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
     <div class="container">
       <img src="assets/images/logo.png" alt="News del Sole logo" class="logo">
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="attualita.html">Attualità</a></li>
-          <li><a href="#">Mondo & Clima</a></li>
-          <li><a href="#">Innovazione</a></li>
+          <li><a href="mondo-clima.html">Mondo & Clima</a></li>
+          <li><a href="innovazione.html">Innovazione</a></li>
           <li><a href="chi-siamo.html">Chi siamo</a></li>
-          <li><a href="#">Contatti</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
+  <!-- HERO -->
   <section class="hero">
-    <h1>Illumina la tua giornata con le notizie del Sole</h1>
-    <p>News positive, verificate e dal tono costruttivo ☀️</p>
+    <div class="hero-content">
+      <h1>Illumina la tua giornata con le notizie del Sole ☀️</h1>
+      <p>News positive, verificate e dal tono costruttivo</p>
+      <a href="#categorie" class="btn-primary">Scopri le ultime notizie</a>
+    </div>
   </section>
 
-  <main>
-    <section class="notizie">
-      <h2>Ultime notizie</h2>
-      <div class="cards">
-        <article>
-          <img src="https://placehold.co/400x200" alt="notizia">
-          <h3>Titolo notizia di esempio</h3>
-          <p>Breve descrizione dell’articolo...</p>
-          <a href="#">Leggi di più</a>
-        </article>
+  <!-- CATEGORIE -->
+  <section class="categorie container" id="categorie">
+    <h2>Esplora per categoria</h2>
+    <div class="grid-categorie">
+      <a href="attualita.html" class="card-categoria">Attualità</a>
+      <a href="economia.html" class="card-categoria">Economia</a>
+      <a href="scienza.html" class="card-categoria">Scienza</a>
+      <a href="ambiente.html" class="card-categoria">Ambiente</a>
+      <a href="cultura.html" class="card-categoria">Cultura</a>
+      <a href="innovazione.html" class="card-categoria">Innovazione</a>
+    </div>
+  </section>
 
-        <article>
-          <img src="https://placehold.co/400x200" alt="notizia">
-          <h3>Seconda notizia in evidenza</h3>
-          <p>Un altro esempio di testo introduttivo...</p>
-          <a href="#">Leggi di più</a>
-        </article>
-      </div>
-    </section>
-  </main>
+  <!-- ULTIME NOTIZIE -->
+  <section class="ultime-notizie container">
+    <h2>Ultime notizie</h2>
+    <div class="grid-articoli">
+      <article class="card-articolo">
+        <img src="https://placehold.co/400x200" alt="Notizia 1">
+        <h3><a href="#">Titolo notizia 1</a></h3>
+        <p>Breve descrizione dell’articolo...</p>
+      </article>
+      <article class="card-articolo">
+        <img src="https://placehold.co/400x200" alt="Notizia 2">
+        <h3><a href="#">Titolo notizia 2</a></h3>
+        <p>Breve descrizione dell’articolo...</p>
+      </article>
+      <article class="card-articolo">
+        <img src="https://placehold.co/400x200" alt="Notizia 3">
+        <h3><a href="#">Titolo notizia 3</a></h3>
+        <p>Breve descrizione dell’articolo...</p>
+      </article>
+      <article class="card-articolo">
+        <img src="https://placehold.co/400x200" alt="Notizia 4">
+        <h3><a href="#">Titolo notizia 4</a></h3>
+        <p>Breve descrizione dell’articolo...</p>
+      </article>
+    </div>
+  </section>
 
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 News del Sole | Made with ☀️ by Emanuele</p>
+    <div class="container footer-grid">
+      <div>
+        <p>© 2025 News del Sole</p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="attualita.html">Attualità</a></li>
+          <li><a href="mondo-clima.html">Mondo & Clima</a></li>
+          <li><a href="innovazione.html">Innovazione</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>Social: <a href="#">☀️</a> <a href="#">🐦</a> <a href="#">📸</a></p>
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>
