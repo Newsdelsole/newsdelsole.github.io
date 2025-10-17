@@ -159,3 +159,26 @@ footer {
   margin-bottom: 0.5rem;
   color: #3B2F2F;
 }
+.topics .news-item {
+  margin-bottom: 1rem;
+}
+
+.topics .news-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.topics .news-item a {
+  color: #FF7A00;
+  text-decoration: none;
+}
+
+.topics .news-item a:hover {
+  text-decoration: underline;
+}
+
+.topics .news-item p {
+  margin: 0;
+  color: #3B2F2F;
+  font-size: 0.95rem;
+}
