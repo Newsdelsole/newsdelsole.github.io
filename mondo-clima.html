@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mondo & Clima - News del Sole ☀️</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="assets/images/logo.png" type="image/png">
-</head>
-<body>
-  <!-- HEADER -->
-  <header>
-    <div class="container header-container">
-      <img src="assets/images/logo.png" alt="News del Sole logo" class="logo">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="attualita.html">Attualità</a></li>
-          <li><a href="mondo-clima.html">Mondo & Clima</a></li>
-          <li><a href="innovazione.html">Innovazione</a></li>
-          <li><a href="chi-siamo.html">Chi siamo</a></li>
-          <li><a href="contatti.html">Contatti</a></li>
+<li><a href="contatti.html">Contatti</a></li>
         </ul>
       </nav>
     </div>
@@ -32,77 +10,87 @@
     <p>Notizie positive e progetti per un pianeta più sostenibile</p>
   </section>
 
+  <!-- FILTRO TOPIC -->
+  <section class="categorie container">
+    <h2>Filtra per argomento</h2>
+    <div class="categorie-cards">
+      <a href="#clima" class="categoria-card">Clima</a>
+      <a href="#energie" class="categoria-card">Energie rinnovabili</a>
+      <a href="#biodiversita" class="categoria-card">Biodiversità</a>
+      <a href="#innovazioni" class="categoria-card">Innovazioni verdi</a>
+      <a href="#progetti" class="categoria-card">Progetti globali</a>
+    </div>
+  </section>
+
   <!-- CARDS ARTICOLI -->
-  <main class="container">
-    <section class="topics">
+  <section class="topics container">
 
-      <!-- Clima -->
-      <article>
-        <h2>Clima</h2>
-        <div class="cards">
-          <div class="card-articolo">
-            <img src="https://placehold.co/400x200" alt="Articolo Clima 1">
-            <h3><a href="link-articolo1.html">Nuovi accordi internazionali sul clima</a></h3>
-            <p>Paesi collaborano per ridurre le emissioni e proteggere gli ecosistemi.</p>
-          </div>
-          <div class="card-articolo">
-            <img src="https://placehold.co/400x200" alt="Articolo Clima 2">
-            <h3><a href="link-articolo2.html">Riduzione emissioni nelle città</a></h3>
-            <p>Progetti urbani per una mobilità più sostenibile e verde.</p>
-          </div>
+    <!-- Clima -->
+    <article id="clima">
+      <h2>Clima</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Clima 1">
+          <h3><a href="link-articolo1.html">Nuovi accordi internazionali sul clima</a></h3>
+          <p>Paesi collaborano per ridurre le emissioni e proteggere gli ecosistemi.</p>
         </div>
-      </article>
-
-      <!-- Energie rinnovabili -->
-      <article>
-        <h2>Energie rinnovabili</h2>
-        <div class="cards">
-          <div class="card-articolo">
-            <img src="https://placehold.co/400x200" alt="Articolo Energie 1">
-            <h3><a href="link-articolo3.html">Nuovi impianti solari e eolici</a></h3>
-            <p>Espansione di energia pulita per ridurre la dipendenza dai fossili.</p>
-          </div>
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Clima 2">
+          <h3><a href="link-articolo2.html">Riduzione emissioni nelle città</a></h3>
+          <p>Progetti urbani per una mobilità più sostenibile e verde.</p>
         </div>
-      </article>
+      </div>
+    </article>
 
-      <!-- Biodiversità -->
-      <article>
-        <h2>Biodiversità</h2>
-        <div class="cards">
-          <div class="card-articolo">
-            <img src="https://placehold.co/400x200" alt="Articolo Biodiversità 1">
-            <h3><a href="link-articolo4.html">Salvataggio specie a rischio</a></h3>
-            <p>Programmi di conservazione per animali e piante minacciati.</p>
-          </div>
+    <!-- Energie rinnovabili -->
+    <article id="energie">
+      <h2>Energie rinnovabili</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Energie 1">
+          <h3><a href="link-articolo3.html">Nuovi impianti solari e eolici</a></h3>
+          <p>Espansione di energia pulita per ridurre la dipendenza dai fossili.</p>
         </div>
-      </article>
+      </div>
+    </article>
 
-      <!-- Innovazioni verdi -->
-      <article>
-        <h2>Innovazioni verdi</h2>
-        <div class="cards">
-          <div class="card-articolo">
-            <img src="https://placehold.co/400x200" alt="Articolo Innovazioni 1">
-            <h3><a href="link-articolo5.html">Start-up tecnologiche eco-friendly</a></h3>
-            <p>Nuove soluzioni high-tech per un mondo più sostenibile.</p>
-          </div>
+    <!-- Biodiversità -->
+    <article id="biodiversita">
+      <h2>Biodiversità</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Biodiversità 1">
+          <h3><a href="link-articolo4.html">Salvataggio specie a rischio</a></h3>
+          <p>Programmi di conservazione per animali e piante minacciati.</p>
         </div>
-      </article>
+      </div>
+    </article>
 
-      <!-- Progetti globali -->
-      <article>
-        <h2>Progetti globali</h2>
-        <div class="cards">
-          <div class="card-articolo">
-            <img src="https://placehold.co/400x200" alt="Articolo Progetti 1">
-            <h3><a href="link-articolo6.html">Collaborazioni internazionali per il verde</a></h3>
-            <p>Programmi globali che uniscono Paesi e comunità per l’ambiente.</p>
-          </div>
+    <!-- Innovazioni verdi -->
+    <article id="innovazioni">
+      <h2>Innovazioni verdi</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Innovazioni 1">
+          <h3><a href="link-articolo5.html">Start-up tecnologiche eco-friendly</a></h3>
+          <p>Nuove soluzioni high-tech per un mondo più sostenibile.</p>
         </div>
-      </article>
+      </div>
+    </article>
 
-    </section>
-  </main>
+    <!-- Progetti globali -->
+    <article id="progetti">
+      <h2>Progetti globali</h2>
+      <div class="cards">
+        <div class="card-articolo">
+          <img src="https://placehold.co/400x200" alt="Articolo Progetti 1">
+          <h3><a href="link-articolo6.html">Collaborazioni internazionali per il verde</a></h3>
+          <p>Programmi globali che uniscono Paesi e comunità per l’ambiente.</p>
+        </div>
+      </div>
+    </article>
+
+  </section>
 
   <!-- FOOTER -->
   <footer>
