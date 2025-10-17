@@ -124,3 +124,38 @@ footer {
   padding: 1rem 0;
   margin-top: 2rem;
 }
+.topics {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.topics article {
+  background: #fff3e0; /* colore chiaro arancio per i box */
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.topics article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.topics h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #FF7A00;
+}
+
+.topics ul {
+  padding-left: 1.2rem;
+}
+
+.topics li {
+  margin-bottom: 0.5rem;
+  color: #3B2F2F;
+}
