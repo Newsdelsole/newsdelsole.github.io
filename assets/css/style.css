@@ -20,8 +20,10 @@ header {
 }
 
 header .logo {
-  height: 50px;
+  height: 100px; 
   vertical-align: middle;
+}
+
 }
 
 nav ul {
